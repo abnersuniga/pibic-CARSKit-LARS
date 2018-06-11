@@ -1,0 +1,30 @@
+WorkingPath: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/
+Your original rating data path: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/foursquare_preprocessado_reduzido.csv
+Current working path: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/
+Data transformaton completed (from Compact to Binary format). See new rating file: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ratings_binary.txt
+Dataset: ...ARSKit.Workspace/ratings_binary.txt
+DataPath: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ratings_binary.txt
+Rating data set has been successfully loaded.
+
+/*****************************************************************************************************************
+ *
+ * Dataset: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 465
+ * Item amount: 413
+ * Rate amount: 499
+ * Context dimensions: 2 (latitude, longitude)
+ * Context conditions: 1000 (latitude: 500, longitude: 500)
+ * Context situations: 499
+ * Data density: 0,00000103933973808222%
+ * Scale distribution: [1.0 x 499]
+ * Average value of all ratings: 1,000000
+ * Standard deviation of all ratings: 0,000000
+ * Mode of all rating values: 1,000000
+ * Median of all rating values: 1,000000
+ *
+ *****************************************************************************************************************/
+With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
+Final Results by lars, Pre1: 0,000000, Pre3: 0,000000, Pre5: 0,000000, Pre10: 0,004348, Rec1: 0,000000, Rec3: 0,000000, Rec5: 0,000000, Rec10: 0,043478, F11: 0,000000, F13: 0,000000, F15: 0,000000, F110: 0,007905, AUC: 0,520284, MAP1: 0,000000, MAP3: 0,000000, MAP5: 0,000000, MAP10: 0,005133, NDCG: 0,013402, MRR: 0,005133, carskit.alg.cars.transformation.modeling.LARS@44e81672, Time: '00:00','00:01'
+

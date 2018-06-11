@@ -1,0 +1,62 @@
+[INFO ] 2018-06-11 15:42:41,350 -- WorkingPath: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/
+[INFO ] 2018-06-11 15:42:41,802 -- Your original rating data path: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/foursquare_preprocessado_reduzido.csv
+[INFO ] 2018-06-11 15:42:41,802 -- Current working path: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/
+[WARN ] 2018-06-11 15:42:41,830 -- You rating data is in Compact format. CARSKit is working on transformation on the data format...
+[INFO ] 2018-06-11 15:42:42,152 -- Data transformaton completed (from Compact to Binary format). See new rating file: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ratings_binary.txt
+[INFO ] 2018-06-11 15:42:42,243 -- Dataset: ...ARSKit.Workspace/ratings_binary.txt
+[INFO ] 2018-06-11 15:42:42,249 -- DataPath: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ratings_binary.txt
+[INFO ] 2018-06-11 15:42:43,048 -- Rating data set has been successfully loaded.
+[INFO ] 2018-06-11 15:42:43,089 -- 
+/*****************************************************************************************************************
+ *
+ * Dataset: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ratings_binary.txt
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 465
+ * Item amount: 413
+ * Rate amount: 499
+ * Context dimensions: 2 (latitude, longitude)
+ * Context conditions: 1000 (latitude: 500, longitude: 500)
+ * Context situations: 499
+ * Data density: 0,00000103933973808222%
+ * Scale distribution: [1.0 x 499]
+ * Average value of all ratings: 1,000000
+ * Standard deviation of all ratings: 0,000000
+ * Mode of all rating values: 1,000000
+ * Median of all rating values: 1,000000
+ *
+ *****************************************************************************************************************/
+[INFO ] 2018-06-11 15:42:43,092 -- With Setup: cv -k 2 -p on --rand-seed 1 --test-view all
+[DEBUG] 2018-06-11 15:42:43,137 -- Fold [1]: training amount: 249, test amount: 250
+[DEBUG] 2018-06-11 15:42:43,181 -- Build item similarity matrix ...
+[DEBUG] 2018-06-11 15:42:43,297 -- ItemKNN fold [1] evaluate test data ... 
+[DEBUG] 2018-06-11 15:42:43,309 -- ItemKNN fold [1] has candidate items: 226
+[DEBUG] 2018-06-11 15:42:43,828 -- ItemKNN fold [1] evaluates progress: 100 / 241
+[DEBUG] 2018-06-11 15:42:44,281 -- ItemKNN fold [1] has writeen item recommendations to /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ItemKNN-top-10-items fold [1].txt
+[DEBUG] 2018-06-11 15:42:44,684 -- ItemKNN fold [1]: Pre1: 0,000000, Pre3: 0,000000, Pre5: 0,000000, Pre10: 0,004348, Rec1: 0,000000, Rec3: 0,000000, Rec5: 0,000000, Rec10: 0,043478, F11: 0,000000, F13: 0,000000, F15: 0,000000, F110: 0,007905, AUC: 0,520193, MAP1: 0,000000, MAP3: 0,000000, MAP5: 0,000000, MAP10: 0,004831, NDCG: 0,013088, MRR: 0,004831	Time: 00:00, 00:01
+[DEBUG] 2018-06-11 15:42:44,862 -- Fold [2]: training amount: 250, test amount: 249
+[DEBUG] 2018-06-11 15:42:44,864 -- LARS fold [1] evaluate test data ... 
+[DEBUG] 2018-06-11 15:42:44,866 -- LARS fold [1] has candidate items: 226
+[DEBUG] 2018-06-11 15:42:44,867 -- Build item similarity matrix ...
+[DEBUG] 2018-06-11 15:42:44,881 -- ItemKNN fold [2] evaluate test data ... 
+[DEBUG] 2018-06-11 15:42:44,883 -- ItemKNN fold [2] has candidate items: 224
+[DEBUG] 2018-06-11 15:42:45,403 -- ItemKNN fold [2] evaluates progress: 200 / 241
+[DEBUG] 2018-06-11 15:42:45,610 -- LARS fold [1] evaluates progress: 100 / 241
+[DEBUG] 2018-06-11 15:42:46,029 -- ItemKNN fold [2] evaluates progress: 300 / 241
+[DEBUG] 2018-06-11 15:42:46,241 -- ItemKNN fold [2] evaluates progress: 400 / 241
+[DEBUG] 2018-06-11 15:42:46,570 -- ItemKNN fold [2] has writeen item recommendations to /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/ItemKNN-top-10-items fold [2].txt
+[DEBUG] 2018-06-11 15:42:46,572 -- ItemKNN fold [2]: Pre1: 0,000000, Pre3: 0,000000, Pre5: 0,000000, Pre10: 0,004348, Rec1: 0,000000, Rec3: 0,000000, Rec5: 0,000000, Rec10: 0,043478, F11: 0,000000, F13: 0,000000, F15: 0,000000, F110: 0,007905, AUC: 0,520374, MAP1: 0,000000, MAP3: 0,000000, MAP5: 0,000000, MAP10: 0,005435, NDCG: 0,013716, MRR: 0,005435	Time: 00:00, 00:01
+[DEBUG] 2018-06-11 15:42:47,009 -- LARS fold [2] evaluate test data ... 
+[DEBUG] 2018-06-11 15:42:47,328 -- LARS fold [2] has candidate items: 224
+[DEBUG] 2018-06-11 15:42:47,459 -- LARS fold [1] has writeen item recommendations to /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/LARS-top-10-items fold [1].txt
+[DEBUG] 2018-06-11 15:42:47,461 -- LARS fold [1]: Pre1: 0,652174, Pre3: 0,304348, Pre5: 0,186957, Pre10: 0,093478, Rec1: 0,652174, Rec3: 0,913043, Rec5: 0,934783, Rec10: 0,934783, F11: 0,652174, F13: 0,507246, F15: 0,311594, F110: 0,169960, AUC: 0,965459, MAP1: 0,652174, MAP3: 0,764493, MAP5: 0,769928, MAP10: 0,769928, NDCG: 0,811895, MRR: 0,769928	Time: 00:00, 00:02
+[DEBUG] 2018-06-11 15:42:47,836 -- LARS fold [2] evaluates progress: 200 / 241
+[DEBUG] 2018-06-11 15:42:48,079 -- LARS fold [2] evaluates progress: 300 / 241
+[DEBUG] 2018-06-11 15:42:48,163 -- LARS fold [2] evaluates progress: 400 / 241
+[DEBUG] 2018-06-11 15:42:48,285 -- LARS fold [2] has writeen item recommendations to /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/LARS-top-10-items fold [2].txt
+[DEBUG] 2018-06-11 15:42:48,287 -- LARS fold [2]: Pre1: 0,510870, Pre3: 0,239130, Pre5: 0,169565, Pre10: 0,084783, Rec1: 0,510870, Rec3: 0,717391, Rec5: 0,847826, Rec10: 0,847826, F11: 0,510870, F13: 0,398551, F15: 0,282609, F110: 0,154150, AUC: 0,921135, MAP1: 0,510870, MAP3: 0,614130, MAP5: 0,645652, MAP10: 0,645652, NDCG: 0,696393, MRR: 0,645652	Time: 00:00, 00:01
+[DEBUG] 2018-06-11 15:42:48,289 -- Evaluation for fold 1 has written to file: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/lars -cf itemknn_evalfolds.csv
+[DEBUG] 2018-06-11 15:42:53,635 -- Evaluation for fold 2 has written to file: /home/abnersuniga/Downloads/pibic-CARSKit-LARS/datasets/foursquare/CARSKit.Workspace/lars -cf itemknn_evalfolds.csv
+[INFO ] 2018-06-11 15:42:53,636 -- Final Results by lars, Pre1: 0,581522, Pre3: 0,271739, Pre5: 0,178261, Pre10: 0,089130, Rec1: 0,581522, Rec3: 0,815217, Rec5: 0,891304, Rec10: 0,891304, F11: 0,581522, F13: 0,452899, F15: 0,297101, F110: 0,162055, AUC: 0,943297, MAP1: 0,581522, MAP3: 0,689312, MAP5: 0,707790, MAP10: 0,707790, NDCG: 0,754144, MRR: 0,707790, carskit.alg.cars.transformation.modeling.LARS@44e81672, Time: '00:00','00:01'
+
+[DEBUG] 2018-06-11 15:42:53,786 -- Have been collected to file: results_all_2016.txt
